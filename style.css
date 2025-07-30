@@ -243,10 +243,10 @@ nav ul li a:hover::after {
     transition: transform 0.5s;
 }
 
-.layer{
+.layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), red);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), red);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -261,12 +261,12 @@ nav ul li a:hover::after {
     transition: height 0.5s;
 }
 
-.layer h3{
+.layer h3 {
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.layer a{
+.layer a {
     margin-top: 20px;
     color: red;
     text-decoration: none;
@@ -279,11 +279,11 @@ nav ul li a:hover::after {
     text-align: center;
 }
 
-.work:hover img{
+.work:hover img {
     transform: scale(1.1);
 }
 
-.work:hover .layer{
+.work:hover .layer {
     height: 100%;
 }
 
@@ -299,7 +299,7 @@ nav ul li a:hover::after {
     transition: background 0.5s;
 }
 
-.btn:hover{
+.btn:hover {
     background: red;
 }
 
@@ -355,11 +355,6 @@ nav ul li a:hover::after {
     background: red;
 }
 
-.btn.btn2 {
-    display: inline-block;
-    background: red;
-}
-
 .contact-right form {
     width: 100%;
 }
@@ -378,14 +373,15 @@ form textarea {
 }
 
 form .btn2 {
-     display: block;
+    display: inline-block;
+    font-size: 24px;
     margin: 50px auto;
     width: fit-content;
-    bottom: 1px solid red;
+    border: 1px solid red;
     padding: 14px 50px;
     border-radius: 6px;
-    text-decoration: none;
     color: white;
+    background: black;
     transition: background 0.5s;
 }
 
